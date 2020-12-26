@@ -1,1 +1,3 @@
 Template inline - Dentro do componente, podemos instanciar um novo componente passando com a crase `<p> teste de template</p>`
+só pode ser utilizado como boas práticas se o código tiver até 3 linhas.
+
