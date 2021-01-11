@@ -1,3 +1,16 @@
 Template inline - Dentro do componente, podemos instanciar um novo componente passando com a crase `<p> teste de template</p>`
 só pode ser utilizado como boas práticas se o código tiver até 3 linhas.
 
+                                Data Binding
+{{ Interpolação }} - Utilizar espaços para melhorar a leitura do código.
+[propertyBind]= "valor";
+(evento)="handler";
+[(ngModel)] = "propriedade" = Two way databinding.
+
+                                Property Binding
+Valor do componente para o template;
+Usa-se colchetes <img [src] = "prop";
+Formato padrão é através de bind-NomePropriedade <img bind-src="prop";
+Quando não existe uma propriedade no elemento, usa-se [attr.colspan]
+
+
