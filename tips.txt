@@ -15,4 +15,4 @@ Quando não existe uma propriedade no elemento, usa-se [attr.colspan]
 
 Css - se for até 1 classe, é normal deixar no componente. Caso contrário, separar em mais arquivos.
 
-Os eventos que mais acontecem durante a aplicação é o ngOnInit e ngOnChanges
+Os eventos que mais acontecem durante a utilização dos componentes é o ngOnInit e ngOnChanges.
