@@ -8,13 +8,13 @@
     </article>
 
     <article>
-        <h3>Property Binding</h3>
+        <h3>&nbsp;Property Binding</h3>
         <img src="{{urlImagem}}">
         <img [src]="urlImagem">
     </article>
 
     <article>
-        <h3>Class e Style Binding</h3>
+        <h3>&nbsp;Class e Style Binding</h3>
         <div>
             Selecione uma classe:
             <select #classeSelecionada (change)="0">
@@ -42,7 +42,7 @@
     </article>
 
     <article>
-        <h3>Event Binding</h3>
+        <h3>&nbsp;Event Binding</h3>
         <div>
             <button class="btn btn-primary" (click)="botaoClicado()">
                 Click me 👀
@@ -50,12 +50,12 @@
             <input type="text" (keyup)="onKeyUp($event)" (keyup.enter)="salvarValor(campoImput.value)"
                 (blur)="salvarValor(campoImput.value)" #campoImput />
 
-            <p> Valor Atual {{valorAtual}}</p>
-            <p> Valor Salvo {{valorSalvo}}</p>
+            <p>&nbsp; Valor Atual {{valorAtual}}</p>
+            <p>&nbsp; Valor Salvo {{valorSalvo}}</p>
             <br>
 
             <span (mouseover)="onMouseOverOut()" (mouseout)="onMouseOverOut()" [class.highlight]="isMouseOver">
-                Passe o Mouse por cima!
+                &nbsp;Passe o Mouse por cima!
             </span>
         </div>
     </article>
@@ -64,7 +64,7 @@
 
 <section class="two-way-binding">
     <article>
-        <h3>two-way data binding</h3>
+        <h3>&nbsp;two-way data binding</h3>
         <div>
             <input type="text" [value]="nome" (input)="nome = $event.target.value" />
             <input type="text" [ngModel]="nome" (ngModelChange)="nome = $event" />
@@ -82,13 +82,12 @@
 
 <section class="input-output-properties">
     <article>
-        <h3>Input/Output Properties</h3>
-        <app-curso [nome]="nomeCurso">
-
-        </app-curso>
-
+        <h3>&nbsp;Input/Output Properties</h3>
+        <app-curso [nome]="nomeCurso"></app-curso>
+        <contador></contador>
     </article>
 </section>
+
 
 
 
